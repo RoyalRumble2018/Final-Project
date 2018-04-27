@@ -1,0 +1,15 @@
+,Model_Name             ,Dataset,F1_score,Precision_score,Recall_score,Accuracy_score,True_Positive,False_Positive,True_Negative,False_Negative
+0,Logistic Regression,Training,1,1,1,1,106,0,174,0
+1,Random Forest Classifier,Training,1,1,1,1,106,0,174,0
+2,Random Forest Classifier,Testing,1,1,1,1,44,0,76,0
+3,Gradient Naive Bayes,Testing,0.775510204,0.633333333,1,0.633333333,0,44,76,0
+4,Logistc Regression,Testing,0.993377483,1,0.986842105,0.991666667,44,0,75,1
+5,Bernoulli Naive Bayes,Testing,0.993377483,1,0.986842105,0.991666667,44,0,75,1
+6,Support Vector Classifier,Testing,0.993377483,1,0.986842105,0.991666667,44,0,75,1
+7,Stochastic Gradient Decent,Testing,0.993377483,1,0.986842105,0.991666667,44,0,75,1
+8,Support Vector Classifier,Training,0.994219653,1,0.988505747,0.992857143,106,0,172,2
+9,Stochastic Gradient Decent,Training,0.994219653,1,0.988505747,0.992857143,106,0,172,2
+10,k nearest Neighbour,Testing,0.95890411,1,0.921052632,0.95,44,0,70,6
+11,Bernoulli Naive Bayes,Training,0.979472141,1,0.959770115,0.975,106,0,167,7
+12,k nearest Neighbour,Training,0.979472141,1,0.959770115,0.975,106,0,167,7
+13,Gradient Naive Bayes,Training,0.96735905,1,0.936781609,0.960714286,106,0,163,11
