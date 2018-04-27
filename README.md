@@ -12,11 +12,11 @@ By **Team 5**
 
 * Team proposal can be found [here](https://github.com/NortheasternUniversityADS/Final-Project/blob/master/Health%20Analysis.pdf).
 
-* Data and files related to **Kidney Disease** can be found [here](https://github.com/NortheasternUniversityADS/Final-Project/tree/master/Kidney%20Disease). 
+* Data and files related to **Kidney Disease** can be found [here](https://github.com/RoyalRumble2018/Final-Project/tree/master/Kidney%20Disease). 
 
-* Data and files related to **Liver Disease** can be found [here](https://github.com/NortheasternUniversityADS/Final-Project/tree/master/Liver%20Disease).
+* Data and files related to **Liver Disease** can be found [here](https://github.com/RoyalRumble2018/Final-Project/tree/master/Liver%20Disease).
 
-* Data and files related to **Diabetes** can be found [here](https://github.com/NortheasternUniversityADS/Final-Project/tree/master/Diabetes).
+* Data and files related to **Diabetes** can be found [here](https://github.com/RoyalRumble2018/Final-Project/tree/master/Diabetes).
 
 
 ## Week 1
