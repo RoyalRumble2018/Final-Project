@@ -42,3 +42,6 @@ By **Team 5**
 * We ran algorithms in those dataset.
 
 * We intregrated them with our model.
+
+
+URL to our model is [here](http://ec2-52-27-35-131.us-west-2.compute.amazonaws.com:5000).
