@@ -1,0 +1,15 @@
+,Model_Name             ,Dataset,F1_score,Precision_score,Recall_score,Accuracy_score,True_Positive,False_Positive,True_Negative,False_Negative
+0,Random Forest Classifier,Training,1.0,1.0,1.0,1.0,42,0,32,0
+1,Random Forest Classifier,Testing,0.9696969696969697,1.0,0.9411764705882353,0.96875,15,0,16,1
+2,Stochastic Gradient Decent,Training,1.0,1.0,1.0,1.0,42,0,32,0
+3,Stochastic Gradient Decent,Testing,1.0,1.0,1.0,1.0,15,0,17,0
+4,k nearest Neighbour,Training,1.0,1.0,1.0,1.0,42,0,32,0
+5,k nearest Neighbour,Testing,1.0,1.0,1.0,1.0,15,0,17,0
+6,Logistic Regression,Training,1.0,1.0,1.0,1.0,42,0,32,0
+7,Logistc Regression,Testing,1.0,1.0,1.0,1.0,15,0,17,0
+8,Support Vector Classifier,Training,0.9508196721311475,1.0,0.90625,0.9594594594594594,42,0,29,3
+9,Support Vector Classifier,Testing,1.0,1.0,1.0,1.0,15,0,17,0
+10,Bernoulli Naive Bayes,Training,1.0,1.0,1.0,1.0,42,0,32,0
+11,Bernoulli Naive Bayes,Testing,0.9375,1.0,0.8823529411764706,0.9375,15,0,15,2
+12,Gradient Naive Bayes,Training,0.9841269841269841,1.0,0.96875,0.9864864864864865,42,0,31,1
+13,Gradient Naive Bayes,Testing,0.6938775510204082,0.53125,1.0,0.53125,0,15,17,0

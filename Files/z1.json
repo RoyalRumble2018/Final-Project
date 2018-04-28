@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "age": 65,
+    "gender": "Female",
+    "tot_bilirubin": 0.7,
+    "direct_bilirubin": 0.1,
+    "tot_proteins": 187,
+    "albumin": 16,
+    "ag_ratio": 18,
+    "sgpt": 6.8,
+    "sgot": 3.3,
+    "alkphos": 0.9
+  },
+  {
+    "id": 2,
+    "age": 62,
+    "gender": "Male",
+    "tot_bilirubin": 10.9,
+    "direct_bilirubin": 5.5,
+    "tot_proteins": 699,
+    "albumin": 64,
+    "ag_ratio": 100,
+    "sgpt": 7.5,
+    "sgot": 3.2,
+    "alkphos": 0.74
+  },
+  {
+    "id": 3,
+    "age": 62,
+    "gender": "Male",
+    "tot_bilirubin": 7.3,
+    "direct_bilirubin": 4.1,
+    "tot_proteins": 490,
+    "albumin": 60,
+    "ag_ratio": 68,
+    "sgpt": 7,
+    "sgot": 3.3,
+    "alkphos": 0.89
+  }
+]

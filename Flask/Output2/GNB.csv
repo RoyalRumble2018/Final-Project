@@ -1,0 +1,4 @@
+Age,BMI,BloodPressure,DiabetesPedigreeFunction,Glucose,Insulin,Pregnancies,SkinThickness,id,Outcome
+50,33.6,72,0.627,148,0,6,35,1,Yes
+31,26.6,66,0.351,85,0,1,29,2,No
+32,23.3,64,0.672,183,0,8,0,3,No

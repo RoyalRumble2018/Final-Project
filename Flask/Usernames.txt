@@ -1,0 +1,8 @@
+admin;password;admin
+admin1;password;admin
+admin2;password;admin
+user1;password;user
+user2;password;user
+user3;password;user
+user4;password;user
+user5;password;user

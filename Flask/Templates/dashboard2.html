@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Data Analytics</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+  <div class = "container-fluid">
+      <h1>Diabetes</h1>
+      <form action="/upload2/" method="POST" enctype = "multipart/form-data">
+        <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file"  name="file"> </input>
+	</div>
+        <!--p class="help-block">Example block-level help text here.</p-->
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-cloud-upload"></span>Upload</button>
+       <!--div id="result"></div-->
+      </form>
+      {% with messages = get_flashed_messages() %}
+          {% if messages %}
+	   <ul class=flashes>
+            {% for message in messages %}
+               <!--div class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"></span></button-->
+                    {{message}}
+               <!--/div-->
+            {% endfor %}
+	    </ul>
+          {% endif %}
+       {% endwith %}
+      <form action="/forminput/" method="POST">
+                  <div class="form-group">
+                    <label for="Input1">Pregnancies</label>
+                    <input type="number" class="form-control" id="Input1" name="pcv" value="{{request.form.pcv}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input2">Glucose</label>
+                    <input type="number"  class="form-control" id="Input2" name="hemo" value="{{request.form.hemo}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input3">BloodPressure</label>
+                    <input type="number" class="form-control" id="Input3" name="sg" value="{{request.form.sg}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input4">SkinThickness</label>
+                    <input type="number" class="form-control" id="Input4" name="sc" value="{{request.form.sc}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input5">Insulin</label>
+                    <input type="number" class="form-control" id="Input5" name="rc" value="{{request.form.rc}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input6">BMI</label>
+                    <input type="number" class="form-control" id="Input6" name="al" value="{{request.form.al}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input7">DiabetesPedigreeFunction</label>
+                    <input type="number" step="0.001" class="form-control" id="Input7" name="dm" value="{{request.form.dm}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input8">Age</label>
+                    <input type="number" class="form-control" id="Input8" name="bgr" value="{{request.form.bgr}}">
+                  </div>
+                  <!--<div class="form-group">
+                    <label for="Input9">Alkphos</label>
+                    <input type="number" class="form-control" id="Input9" name="sod" value="{{request.form.sod}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input10">Gender(1--Male,0--Female)</label>
+                    <input type="number" class="form-control" id="Input10" name="htn" value="{{request.form.htn}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input10">Blood urea</label>
+                    <input type="number" class="form-control" id="Input11" name="bu" value="{{request.form.bu}}">
+                  </div>-->
+		  <input type="hidden" name="disease" value="Diab"> 
+                  <button type="submit" class="btn btn-default"> Submit </button>
+      </form> 
+       {% block body %}{% endblock %}
+  </div>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
