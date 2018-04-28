@@ -18,7 +18,7 @@ By **Team 5**
 
 * Data and files related to **Diabetes** can be found [here](https://github.com/RoyalRumble2018/Final-Project/tree/master/Diabetes).
 
-* `Project Report` can be found [here](https://github.com/RoyalRumble2018/Final-Project/blob/master/Project%20Report.pdf).
+* **Project Report** can be found [here](https://github.com/RoyalRumble2018/Final-Project/blob/master/Project%20Report.pdf).
 
 ## Week 1
 
@@ -45,4 +45,4 @@ By **Team 5**
 * We intregrated them with our model.
 
 
-URL to our model is [here](http://ec2-52-27-35-131.us-west-2.compute.amazonaws.com:5000).
+**URL** to our model is [here](http://ec2-52-27-35-131.us-west-2.compute.amazonaws.com:5000).
