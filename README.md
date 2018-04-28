@@ -18,6 +18,7 @@ By **Team 5**
 
 * Data and files related to **Diabetes** can be found [here](https://github.com/RoyalRumble2018/Final-Project/tree/master/Diabetes).
 
+* `Project Report` can be found [here](https://github.com/RoyalRumble2018/Final-Project/blob/master/Project%20Report.pdf).
 
 ## Week 1
 
